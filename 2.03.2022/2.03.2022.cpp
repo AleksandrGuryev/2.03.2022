@@ -8,6 +8,102 @@ int main()
 {
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
+
+	// 19
+
+
+
+/*
+	// 18
+	int n, counter;
+	cin >> n;
+	for (int i = 0; i < n; i++)
+	{
+		if (i % 2 != 0 && i % 3 != 0 && i % 5 != 0)
+			counter++;
+	}
+	cout << counter << endl;
+}
+
+
+	// 17
+	float n, sred = 0;
+	for (int i = 0; i < 10; i++)
+	{
+		cin >> n;
+		sred += n;
+	}
+	cout << sred / 10 << endl;
+}
+
+	// 16 
+	float n, m, hour = 0;
+	cin >> n >> m;
+	for (int i = 1; i <= n; i++) {
+		hour += 10;
+	}
+	cout << ((m * 60) + hour) / 60 << endl;
+}
+
+
+	//15
+	float a, b, proizv = 1;
+	cout << "Введите число: \n";
+	cin >> a ;
+	cout << "Введите число (число не может быть отрицательным, если первое введеное число дробное) : \n";
+	cin >> b;
+	for (int i = 0; i < b; i++)
+	{
+		proizv *= a;
+	}
+	cout << proizv << endl;
+}
+
+
+	// 14
+	int a, proizv, sum = 0;
+	cin >> a;
+	for (int i = 1; i <= a; i++)
+	{
+		proizv = i * i;
+		sum += proizv;
+	}
+	cout << sum << endl;
+}
+
+
+	// 13
+	int sum = 0;
+	for (int i = 100; i < 200; i++)
+	{
+		if (i % 17 == 0)
+			sum += i;
+	}
+	cout << sum << endl;
+}
+
+
+	// 12
+	int proizv = 1;
+	for (int i = 10; i < 100; i++)
+	{
+		if (i % 2 != 0) {
+			if (i % 13 == 0)
+				proizv *= i;
+		}
+	}
+	cout << proizv << endl;
+}
+
+	
+	// 11
+	for (int i = 10; i < 100; i++)
+	{
+		if (i % 4 == 0 && i % 6 != 0)
+			cout << i << endl;
+	}
+}
+
 	 
 	// 6
 	int sum = 0;
@@ -15,13 +111,14 @@ int main()
 	for (int i = 1; i <= 50; i++)
 	{
 		if (i % 5 == 0 || i % 7 == 0)
+			sum += i;
 	}
 	cout << sum << endl;
 }
 
 
 
-/*
+
 	//5
 	for (int i = 35; i <= 87; i++)
 	{
